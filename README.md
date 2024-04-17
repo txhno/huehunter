@@ -64,6 +64,6 @@ HueHunter is open-sourced under the MIT license. See the LICENSE file for more d
 
 ## Contact
 
-For support or to contact the developers, please send an email to [your-email@example.com].
+For support or to contact the developers, please send an email to [roshanwarrierwork@gmail.com].
 
 Thank you for using HueHunter!
