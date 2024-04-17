@@ -1,7 +1,7 @@
 
-# HueHunter 🎨 
+# HueHunter
 
-HueHunter is a Python command-line tool designed to detect and name the dominant colors in images. It analyzes images and maps the detected colors to the closest CSS3 color names, helping designers, developers, and artists to quickly identify key colors used in various visual media.
+🎨 HueHunter: A command-line tool for quickly identifying and naming dominant colors in digital images. 🌈
 
 ## Features
 
@@ -13,13 +13,22 @@ HueHunter is a Python command-line tool designed to detect and name the dominant
 
 Before installing HueHunter, ensure you have Python installed on your system. HueHunter works best with Python 3.6 or newer.
 
-To install HueHunter, run the following command:
+To install HueHunter directly from the source:
 
-```bash
-pip install HueHunter
-```
+1. First, clone the repository:
+   ```bash
+   git clone https://github.com/txhno/huehunter.git
+   ```
+2. Navigate to the `huehunter` directory:
+   ```bash
+   cd huehunter
+   ```
+3. Install the package:
+   ```bash
+   pip install .
+   ```
 
-This command will download and install HueHunter along with its dependencies.
+This series of commands will download the HueHunter source, move you into the HueHunter project directory, and install HueHunter along with its dependencies directly from the source code. This method is particularly useful if you plan to modify the code or contribute to the project.
 
 ## Dependencies
 
@@ -64,6 +73,6 @@ HueHunter is open-sourced under the MIT license. See the LICENSE file for more d
 
 ## Contact
 
-For support or to contact the developers, please send an email to [roshanwarrierwork@gmail.com].
+For support or to contact the developers, please send an email to [roshanwarrierwork@gmail,com].
 
 Thank you for using HueHunter!
