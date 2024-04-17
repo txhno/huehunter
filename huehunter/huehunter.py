@@ -47,12 +47,14 @@ def get_closest_color_name(rgb_color):
 def main():
     """Main function to handle command line arguments and print color detections."""
     if len(sys.argv) < 2:
-        print("Usage: huehunter <image_path>")
+        print("\033[91mUsage: huehunter <image_path>\033[0m")  # Red color for usage error
         sys.exit(1)
 
     image_path = sys.argv[1]
     color_description = detect_colors(image_path)
-    print(f"Image Name: {image_path.split('/')[-1]}, Colors: {color_description}")
+    image_name = image_path.split('/')[-1]
+    print("\033[96mImage Name:\033[0m", "\033[93m{}\033[0m".format(image_name))  # Cyan for label, Yellow for image name
+    print("\033[96mDetected Colors:\033[0m", "\033[92m{}\033[0m".format(', '.join(color_description)))  # Green for detected colors
 
 if __name__ == "__main__":
     main()
