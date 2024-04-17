@@ -1,5 +1,5 @@
 
-# HueHunter
+# HueHunter 🎨 
 
 HueHunter is a Python command-line tool designed to detect and name the dominant colors in images. It analyzes images and maps the detected colors to the closest CSS3 color names, helping designers, developers, and artists to quickly identify key colors used in various visual media.
 
