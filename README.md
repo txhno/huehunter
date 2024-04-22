@@ -58,7 +58,8 @@ huehunter example.jpg
 
 Output:
 ```
-Image Name: example.jpg, Colors: ['black', 'darkslategray', 'dimgray']
+Image Name: example.jpg
+Detected Colors: silver, darkslategray, dimgray
 ```
 
 This output tells you the image name and lists the dominant colors detected in the image.
