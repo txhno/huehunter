@@ -1,13 +1,12 @@
-
 # HueHunter
 
 🎨 HueHunter: A command-line tool for quickly identifying and naming dominant colors in digital images. 🌈
 
 ## Features
 
-- Detects dominant colors in an image.
-- Maps detected colors to the nearest CSS3 color names.
-- Simple command-line interface for easy use.
+- Detects dominant colors in an image using KMeans clustering.
+- Maps detected colors to the nearest CSS3 color names for easy reference.
+- Simple command-line interface for straightforward usage.
 
 ## Installation
 
@@ -37,7 +36,7 @@ HueHunter relies on several third-party libraries:
 - OpenCV-Python: For image processing.
 - Pillow: For image manipulation tasks.
 - numpy: For numerical operations.
-- fast-colorthief: For extracting color palettes.
+- scikit-learn: For performing KMeans clustering to determine dominant colors.
 - webcolors: For converting RGB values to human-readable color names.
 
 These dependencies are automatically installed when you install HueHunter via pip.
@@ -74,6 +73,6 @@ HueHunter is open-sourced under the MIT license. See the LICENSE file for more d
 
 ## Contact
 
-For support or to contact the developers, please send an email to [roshanwarrierwork@gmail,com].
+For support or to contact the developers, please send an email to [roshanwarrierwork@gmail.com].
 
 Thank you for using HueHunter!
