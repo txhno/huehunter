@@ -1,9 +1,8 @@
-# setup.py
 from setuptools import setup, find_packages
 
 setup(
     name='HueHunter',
-    version='0.1.0',
+    version='0.2.0',
     author='Roshan Warrier',
     author_email='roshanwarrierwork@gmail.com',
     packages=find_packages(),
@@ -21,6 +20,6 @@ setup(
         "numpy",
         "Pillow",
         "webcolors",
-        "fast-colorthief",
+        "scikit-learn",
     ],
 )
