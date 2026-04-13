@@ -10,24 +10,23 @@
 
 ## Installation
 
-Before installing HueHunter, ensure you have Python installed on your system. HueHunter works best with Python 3.6 or newer.
+Before installing HueHunter, ensure you have Python installed on your system.
 
-To install HueHunter directly from the source:
+To install the current source version:
 
-1. First, clone the repository:
-   ```bash
-   git clone https://github.com/txhno/huehunter.git
-   ```
-2. Navigate to the `huehunter` directory:
-   ```bash
-   cd huehunter
-   ```
-3. Install the package:
-   ```bash
-   pip install .
-   ```
+```bash
+git clone https://github.com/txhno/huehunter.git
+cd huehunter
+python -m pip install .
+```
 
-This series of commands will download the HueHunter source, move you into the HueHunter project directory, and install HueHunter along with its dependencies directly from the source code. This method is particularly useful if you plan to modify the code or contribute to the project.
+If you want to install directly from GitHub without cloning the repository first:
+
+```bash
+python -m pip install git+https://github.com/txhno/huehunter.git
+```
+
+Both commands install HueHunter and its dependencies in one step.
 
 ## Dependencies
 
