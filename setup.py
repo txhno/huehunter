@@ -11,10 +11,11 @@ setup(
             'huehunter=huehunter.huehunter:main',
         ],
     },
-    url='http://pypi.python.org/pypi/HueHunter/',
-    license='LICENSE.txt',
+    url='https://github.com/txhno/huehunter',
+    license='MIT',
     description='A tool that detects dominant colors in images.',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     install_requires=[
         "opencv-python-headless",
         "numpy",
